@@ -26,6 +26,7 @@ server.on('request', function(req, res){
     res.write("  </head>");
     res.write("  <body>");
     res.write("   <h1>Node JS 부터의 응답 페이지!!!</h1>");
+    res.write("   <h2>Test project 1</h2>");
     res.write("  </body>");
     res.write("</html>");
     res.end();
